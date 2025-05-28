@@ -14,9 +14,9 @@
         };
 
         bt_layer{
-            binding = <
+            bindings = <
                 &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none
-                &none                      &bt BT_CLR       &BT_PRV    &none  &bt BT_NXT
+                &none                      &bt BT_CLR       &bt BT_PRV    &none  &bt BT_NXT
         }
      };
 };
