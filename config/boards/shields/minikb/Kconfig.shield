@@ -1,0 +1,2 @@
+config SHIELD_MINIKB
+    def_bool $(shields_list_contains, MiniKB)
