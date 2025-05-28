@@ -38,7 +38,7 @@
         a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
-        status = "disabled";
+        status = "okay";
     };
 
     sensors: sensors {
@@ -47,7 +47,4 @@
         triggers-per-rotation = <20>;
     };
 
-    V_encoder: encoder_V {
-        status = "okay";
-    };
 };
