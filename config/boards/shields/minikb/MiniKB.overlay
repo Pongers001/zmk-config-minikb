@@ -47,7 +47,7 @@
         triggers-per-rotation = <20>;
     };
 
-    &left_encoder {
+    &V_encoder {
         status = "okay";
     };
 };
