@@ -50,4 +50,4 @@
 
 &V_encoder {
     status = "okay";
-}
+};
